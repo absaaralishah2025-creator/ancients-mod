@@ -1,0 +1,11 @@
+{
+  "type": "ancientsmod:ancients_dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "ancientsmod:ancients_noise_settings",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "ancientsmod:ancients_biome"
+    }
+  }
+}
