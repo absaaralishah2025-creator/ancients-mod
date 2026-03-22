@@ -12,38 +12,10 @@
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2.0
-    },
-    "additions_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.additions",
-      "tick_chance": 0.0111
-    },
-    "music": {
-      "sound": "minecraft:music.nether.soul_sand_valley",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
     }
   },
   "spawners": {
     "monster": [
-      {
-        "type": "ancientsmod:ancient_warden",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "ancientsmod:soul_phantom",
-        "weight": 15,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "ancientsmod:void_creeper",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 2
-      },
       {
         "type": "minecraft:zombie",
         "weight": 20,
@@ -57,26 +29,14 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:blaze",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
         "type": "minecraft:enderman",
         "weight": 10,
         "minCount": 1,
         "maxCount": 2
       },
       {
-        "type": "minecraft:phantom",
-        "weight": 8,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "minecraft:piglin_brute",
-        "weight": 8,
+        "type": "minecraft:blaze",
+        "weight": 10,
         "minCount": 1,
         "maxCount": 2
       }
