@@ -9,11 +9,3 @@
     }
   }
 }
-```
-
----
-
-### File 2 — `ancients_dimension_type.json`
-Path:
-```
-src/main/resources/data/ancientsmod/worldgen/dimension_type/ancients_dimension_type.json
