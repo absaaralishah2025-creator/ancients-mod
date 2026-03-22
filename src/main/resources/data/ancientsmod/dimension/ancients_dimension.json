@@ -2,10 +2,18 @@
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "minecraft:overworld",
+    "settings": "ancientsmod:ancients_noise_settings",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "minecraft:plains"
+      "biome": "ancientsmod:ancients_biome"
     }
   }
 }
+```
+
+---
+
+### File 2 — `ancients_dimension_type.json`
+Path:
+```
+src/main/resources/data/ancientsmod/worldgen/dimension_type/ancients_dimension_type.json
