@@ -17,6 +17,24 @@
   "spawners": {
     "monster": [
       {
+        "type": "ancientsmod:ancient_warden",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "ancientsmod:soul_phantom",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "ancientsmod:void_creeper",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
         "type": "minecraft:zombie",
         "weight": 20,
         "minCount": 2,
