@@ -1,5 +1,7 @@
 package com.ancients.mod;
 
+import com.ancients.mod.event.DimensionTravelHandler;
+import com.ancients.mod.event.PortalActivationHandler;
 import com.ancients.mod.registry.*;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,5 +25,7 @@ public class AncientsMod {
         ModBiomes.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(new PortalActivationHandler());
+        MinecraftForge.EVENT_BUS.register(new DimensionTravelHandler());
     }
 }
